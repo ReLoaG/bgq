@@ -1,0 +1,995 @@
+.first-screen{
+  width: 100vw;
+  background-image: url("http://bqg.dev:8888/wp-content/uploads/2017/05/first-screen-bg.png");
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background-size: 100%;
+  position: relative;
+}
+
+.first-screen .inner-content{
+  position: relative;
+  max-width: 96%;
+  width: 1120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+
+.first-screen .heading-text{
+  font-family: "BebasNeue";
+  text-transform: uppercase;
+  font-size: 4em;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 400;
+}
+
+.first-screen .simple-text{
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1em;
+  color: #fff;
+}
+
+.first-screen .button-link{
+  margin-top: 70px;
+}
+
+.first-screen .button-link a{
+  font-family: "BebasNeue";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #f1d53a;
+  padding: 18px 40px 15px 40px;
+  transition: 0.3s ease-in-out;
+}
+
+.first-screen .button-link a:hover{
+  color: $theme-grey;
+  background-color: $theme-yellow;
+  border: 3px solid #f1d53a;
+  transition: 0.3s ease-in-out;
+}
+
+.about-us{
+  background-image: url("http://bqg.dev:8888/wp-content/uploads/2017/05/bg-about.png");
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background-size: 100%;
+  width: 100vw;
+  position: relative;
+}
+
+.about-us .inner-content{
+  position: relative;
+  max-width: 96%;
+  width: 1120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+
+.about-us .heading-text{
+  font-family: "BebasNeue";
+  text-transform: uppercase;
+  font-size: 4em;
+  line-height: 1em;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.about-us .heading-text span:after{
+  content: 'after';
+  position: absolute;
+  left: 0;
+  top: 1.3em;
+  color: transparent;
+  height: 11px;
+  width: 110px!important;
+  background: url(http://bqg.dev:8888/wp-content/uploads/2017/05/line-under-heading.png) repeat-x;
+}
+
+.about-us .simple-text{
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.about-us .button-link{
+  margin-top: 70px;
+}
+
+.about-us .button-link a{
+  font-family: "BebasNeue";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: $theme-grey;
+  background-color: transparent;
+  border: 3px solid #f1d53a;
+  padding: 18px 40px 15px 40px;
+  transition: 0.3s ease-in-out;
+}
+
+.about-us .button-link a:hover{
+  background-color: $theme-yellow;
+  border: 3px solid #f1d53a;
+  transition: 0.3s ease-in-out;
+}
+
+.short-information{
+  width: 100vw;
+  min-height: 185px;
+  background-color: $theme-yellow;
+  padding-top: 10px;
+  background-size: 100%;
+}
+
+.short-information .inner-content{
+  max-width: 96%;
+  width: 1120px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.short-information .column{
+  padding-bottom: 50px;
+  float: left;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  font-family: "BebasNeue";
+}
+
+.short-information .number{
+  font-size: 3em;
+  color: $theme-grey;
+}
+
+.short-information .text{
+  font-size: 1.7em;
+  color: #fff;
+  line-height: 0.78em;
+}
+
+.products{
+  width: 100vw;
+  background-image: url("http://bqg.dev:8888/wp-content/uploads/2017/05/bg-products1.png");
+  background-repeat: no-repeat;
+  background-size: 39.3%;
+  padding-top: 100px;
+  padding-bottom: 110px;
+  position: relative;
+}
+
+.products .right-column{
+  position: relative;
+  max-width: 50%;
+  left: 45%;
+}
+
+.products .heading-text{
+  font-family: "BebasNeue";
+  text-transform: uppercase;
+  font-size: 4em;
+  line-height: 1em;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.products .heading-text span:after{
+  content: 'after';
+  position: absolute;
+  left: 0;
+  top: 0.9em;
+  color: transparent;
+  height: 11px;
+  width: 110px!important;
+  background: url(http://bqg.dev:8888/wp-content/uploads/2017/05/line-under-heading.png) repeat-x;
+}
+
+.products .simple-text{
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.products .button-link{
+  margin-top: 70px;
+}
+
+.products .button-link a{
+  font-family: "BebasNeue";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: $theme-grey;
+  background-color: transparent;
+  border: 3px solid #f1d53a;
+  padding: 18px 40px 15px 40px;
+  transition: 0.3s ease-in-out;
+}
+
+.products .button-link a:hover{
+  background-color: $theme-yellow;
+  border: 3px solid #f1d53a;
+  transition: 0.3s ease-in-out;
+}
+
+.video{
+  width: 100vw;
+  min-height: 825px;
+  background-image: url("http://bqg.dev:8888/wp-content/uploads/2017/05/bg-video.png");
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  position: relative;
+  transition: 0.2s ease-in-out;
+}
+
+.video .play-button{
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  color: $theme-yellow;
+  font-size: 125px;
+  transition: 0.2s ease-in-out;
+}
+
+.video .play-button i:hover{
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+@media only screen and (max-width : 1500px){
+
+  body{
+    margin-left: 0!important;
+    max-width: 1500px!important;
+  }
+
+  .header .inner-content{
+    max-width: 975px;
+  }
+
+  .header .top-menu{
+    padding-top: 20px;
+  }
+
+  .header .top-menu ul li{
+     padding-right: 20px;
+   }
+
+  .header .lang{
+    line-height: 2.7em;
+  }
+
+  .header .lang span:after{
+    bottom: -20px;
+    right: 35px;
+  }
+
+  .first-screen{
+    background-repeat: no-repeat;
+    padding-top: 75px;
+    padding-bottom: 60px;
+  }
+
+  .first-screen .inner-content{
+    max-width: 975px;
+  }
+
+  .about-us{
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .about-us .inner-content{
+    width: 975px;
+  }
+
+  .about-us .heading-text{
+    font-size: 3.5em;
+    margin-bottom: 35px;
+  }
+
+  .about-us .simple-text{
+    font-size: 0.85em;
+    line-height: 1.2em;
+  }
+
+  .about-us .button-link{
+    margin-top: 45px;
+  }
+
+  .products{
+    background-size: 40%;
+    padding-bottom: 50px;
+    padding-top: 55px;
+  }
+
+  .products .heading-text{
+    font-size: 3.5em;
+    line-height: 1em;
+    margin-bottom: 35px;
+  }
+
+  .products .simple-text{
+    font-size: 0.85em;
+    line-height: 1.5em;
+  }
+
+  .products .button-link{
+    margin-top: 45px;
+  }
+
+  .video{
+    max-height: 100vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 600px;
+  }
+
+  .footer .heading-text{
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 400;
+  }
+
+  .footer .left-column{
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+
+  .footer form{
+    padding-top: 40px;
+  }
+
+  .footer .right-column{
+    padding-left: 80px;
+  }
+}
+
+@media only screen and (max-width : 1366px){
+
+  body{
+    margin-left: 0!important;
+    max-width: 1300px!important;
+  }
+
+  .header .inner-content{
+    max-width: 975px;
+  }
+
+  .header .top-menu{
+    padding-top: 20px;
+  }
+
+  .header .top-menu ul li{
+    padding-right: 20px;
+  }
+
+  .header .lang{
+    line-height: 2.7em;
+  }
+
+  .header .lang span:after{
+    bottom: -20px;
+    right: 35px;
+  }
+
+  .first-screen{
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .first-screen .inner-content{
+    max-width: 975px;
+  }
+
+  .first-screen .heading-text{
+    font-size: 3em;
+  }
+
+  .first-screen .button-link{
+    margin-top: 35px;
+  }
+
+  .about-us{
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .about-us .inner-content{
+    width: 975px;
+  }
+
+  .about-us .heading-text{
+    font-size: 3em;
+    margin-bottom: 35px;
+  }
+
+  .about-us .simple-text{
+    font-size: 0.85em;
+    line-height: 1em;
+  }
+
+  .about-us .button-link{
+    margin-top: 35px;
+  }
+
+  .about-us .button-link a{
+    padding: 13px 35px 10px 35px;
+  }
+
+  .short-information{
+    min-height: 140px;
+
+  }
+
+  .short-information .inner-content{
+    width: 975px;
+    padding-top: 10px;
+  }
+
+  .short-information .number{
+    font-size: 2.5em;
+  }
+
+  .short-information .text{
+    font-size: 1.5em;
+  }
+
+  .products{
+    background-image: url("http://bqg.dev:8888/wp-content/uploads/2017/05/bg-products_1024-e1493884502213.png");
+    background-size: 39.3%;
+    padding-bottom: 35px;
+    padding-top: 35px;
+  }
+
+  .products .heading-text{
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 30px;
+  }
+
+  .products .simple-text{
+    font-size: 0.85em;
+    line-height: 1.4em;
+  }
+
+  .products .button-link{
+    margin-top: 35px;
+  }
+
+  .products .button-link a{
+    padding: 13px 35px 10px 35px;
+  }
+
+  .video{
+    max-height: 100vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 500px;
+  }
+
+  .footer .heading-text{
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 400;
+  }
+
+  .footer .left-column{
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer .right-column{
+    padding-left: 40px;
+  }
+
+  .footer .right-column .column-2{
+    padding-left: 20px;
+  }
+
+  .footer form{
+    padding-top: 40px;
+  }
+
+  .footer .right-column{
+    padding-left: 80px;
+  }
+}
+
+@media only screen and (max-width : 1023px){
+
+  body{
+    margin-left: 0!important;
+    max-width: 1024px!important;
+  }
+
+  .header{
+    min-height: 100px;
+  }
+
+  .header .inner-content{
+    padding-top: 15px;
+    max-width: 650px;
+  }
+
+  .header .logo img{
+    width: 80%;
+  }
+
+  .header .top-menu{
+    padding-top: 20px;
+  }
+
+  .header .top-menu ul li{
+    padding-right: 20px;
+  }
+
+  .header .top-menu ul li a{
+    font-size: 1.4em;
+  }
+
+  .header .lang{
+    font-size: 1.4em;
+    line-height: 3.2em;
+  }
+
+  .header .lang span:after{
+    border-width: 7px 7.5px 0;
+    bottom: -17px;
+    right: 20px;
+  }
+
+  .first-screen{
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .first-screen .inner-content{
+    max-width: 650px;
+  }
+
+  .first-screen .heading-text{
+    font-size: 2.2em;
+  }
+
+  .first-screen .simple-text{
+    font-size: 0.85em;
+  }
+
+  .first-screen .button-link{
+    margin-top: 25px;
+  }
+
+  .first-screen .button-link a{
+    padding: 10px 30px 7px 30px;
+    font-size: 1em;
+  }
+
+  .about-us{
+    background-image: url("http://bqg.dev:8888/wp-content/uploads/2017/05/bg-about-square.jpg");
+    background-position: top right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .about-us .inner-content{
+    width: 650px;
+  }
+
+  .about-us .heading-text{
+    font-size: 2.2em;
+    margin-bottom: 25px;
+  }
+
+  .about-us .heading-text span:after{
+    top: 1.55em;
+    height: 8px;
+    width: 80px!important;
+    background: $theme-yellow;
+  }
+
+  .about-us .simple-text{
+    font-size: 0.85em;
+    line-height: 1em;
+  }
+
+  .about-us .button-link{
+    margin-top: 25px;
+  }
+
+  .about-us .button-link a{
+    padding: 10px 30px 7px 30px;
+    font-size: 1em;
+  }
+
+  .short-information{
+    display: none;
+  }
+
+  .products{
+    background-image: url("http://bqg.dev:8888/wp-content/uploads/2017/05/bg-products_1024-e1493884502213.png");
+    background-size: 50%;
+    padding-bottom: 35px;
+    padding-top: 35px;
+  }
+
+  .products .right-column {
+    left: 55%;
+    max-width: 45%;
+  }
+
+  .products .heading-text{
+    font-size: 2.2em;
+    margin-bottom: 25px;
+  }
+
+  .products .heading-text span:after{
+    top: 0.9em;
+    height: 8px;
+    width: 80px!important;
+    background: $theme-yellow;
+  }
+
+  .products .simple-text{
+    font-size: 0.735em;
+    line-height: 1.1em;
+  }
+
+  .products .button-link{
+    margin-top: 35px;
+  }
+
+  .products .button-link a{
+    padding: 10px 30px 7px 30px;
+    font-size: 1em;
+  }
+
+  .video{
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 350px;
+  }
+
+  .video .play-button{
+    position: absolute;
+    top: 38%;
+    left: 48%;
+    color: $theme-yellow;
+    font-size: 60px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .footer .heading-text{
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 400;
+  }
+
+  .footer .left-column{
+    padding-left: 60px;
+    padding-top: 70px;
+    width: 50%;
+    padding-bottom: 120px;
+  }
+
+  .footer .right-column{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+
+  .footer .right-column .subtitle {
+    font-size: 1.1em;
+    padding-top: 20px;
+  }
+
+  .footer .right-column .plain-text {
+    font-size: .85em;
+    line-height: 1.2em;
+  }
+
+  .footer .right-column .column-2{
+    padding-left: 0;
+  }
+
+  .footer form{
+    padding-top: 40px;
+  }
+
+  .footer .right-column{
+    padding-left: 80px;
+  }
+}
+
+
+@media only screen and(max-width: 767px){
+
+  body{
+    margin-left: 0!important;
+    max-width: 350px!important;
+  }
+
+  .header{
+    min-height: 100px;
+  }
+
+  .header .inner-content{
+    padding-top: 15px;
+    max-width: 350px;
+  }
+
+  .header .logo img{
+    width: 80%;
+  }
+
+  .header .top-menu{
+    padding-top: 20px;
+  }
+
+  .header .top-menu ul li{
+    padding-right: 20px;
+  }
+
+  .header .top-menu ul li a{
+    font-size: 1.4em;
+  }
+
+  .header .lang{
+    font-size: 1.4em;
+    line-height: 3.2em;
+  }
+
+  .header .lang span:after{
+    border-width: 7px 7.5px 0;
+    bottom: -17px;
+    right: 20px;
+  }
+
+  .first-screen{
+    background-image: url("http://bqg.dev:8888/wp-content/uploads/2017/05/bg-first-screen-1200.png");
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .first-screen .inner-content{
+    max-width: 350px;
+  }
+
+  .first-screen .heading-text{
+    font-size: 2.2em;
+  }
+
+  .first-screen .simple-text{
+    font-size: 0.85em;
+  }
+
+  .first-screen .button-link{
+    margin-top: 25px;
+  }
+
+  .first-screen .button-link a{
+    padding: 10px 30px 7px 30px;
+    font-size: 1em;
+  }
+
+  .about-us{
+    background-image: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .about-us .inner-content{
+    width: 350px;
+  }
+
+  .about-us .heading-text{
+    font-size: 2.2em;
+    margin-bottom: 25px;
+  }
+
+  .about-us .heading-text span:after{
+    top: 1.55em;
+    height: 8px;
+    width: 80px!important;
+    background: $theme-yellow;
+  }
+
+  .about-us .simple-text{
+    font-size: 0.85em;
+    line-height: 1.2em;
+  }
+
+  .about-us .button-link{
+    margin-top: 25px;
+  }
+
+  .about-us .button-link a{
+    padding: 10px 30px 7px 30px;
+    font-size: 1em;
+  }
+
+  .short-information{
+    display: none;
+  }
+
+  .products{
+    background-image: none;
+    padding-bottom: 35px;
+    padding-top: 35px;
+  }
+
+  .products .right-column {
+    margin: 0 auto;
+    left: auto;
+    max-width: 350px;
+  }
+
+  .products .heading-text{
+    font-size: 2.2em;
+    margin-bottom: 25px;
+  }
+
+  .products .heading-text span:after{
+    top: 0.85em;
+    height: 8px;
+    width: 80px!important;
+    background: $theme-yellow;
+  }
+
+  .products .simple-text{
+    font-size: 0.9em;
+    line-height: 1.2em;
+  }
+
+  .products .button-link{
+    margin-top: 35px;
+  }
+
+  .products .button-link a{
+    padding: 10px 30px 7px 30px;
+    font-size: 1em;
+  }
+
+  .video{
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 250px;
+  }
+
+  .video .play-button{
+    position: absolute;
+    top: 36%;
+    left: 48%;
+    color: $theme-yellow;
+    font-size: 60px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .footer .heading-text{
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 400;
+  }
+
+  .footer .left-column{
+    padding-left: 60px;
+    padding-top: 70px;
+    width: 100%;
+    padding-bottom: 120px;
+  }
+
+  .footer .right-column{
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+
+  .footer .right-column .subtitle {
+    font-size: 1.1em;
+    padding-top: 20px;
+  }
+
+  .footer .right-column .plain-text {
+    font-size: .85em;
+    line-height: 1.2em;
+  }
+
+  .footer .right-column .column-2{
+    padding-left: 20px;
+  }
+
+  .footer form{
+    padding-top: 40px;
+  }
+
+  .footer .right-column{
+    padding-left: 80px;
+  }
+
+}
+
+@media only screen and(max-width: 480px){
+
+  body{
+    margin-left: 0!important;
+    max-width: 300px!important;
+  }
+
+  .header .inner-content{
+    max-width: 300px;
+  }
+
+  .first-screen{
+    background-image: url("http://bqg.dev:8888/wp-content/uploads/2017/05/bg-first-screen-825.png");
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .first-screen .inner-content{
+    max-width: 300px;
+  }
+
+  .about-us .inner-content{
+    width: 300px;
+  }
+
+  .products .right-column {
+    max-width: 300px;
+  }
+}
+
+@media only screen and(max-width: 480px){
+
+  body{
+    margin-left: 0!important;
+    max-width: 280px!important;
+  }
+
+  .header .inner-content{
+    max-width: 280px;
+  }
+
+  .first-screen{
+    background-image: url("http://bqg.dev:8888/wp-content/uploads/2017/05/bg-first-screen-825.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .first-screen .inner-content{
+    max-width: 280px;
+  }
+
+  .about-us .inner-content{
+    width: 280px;
+  }
+
+  .products .right-column {
+    max-width: 280px;
+  }
+}

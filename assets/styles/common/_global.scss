@@ -1,0 +1,26 @@
+/* Theme variables */
+
+$theme-grey: #404040;
+$theme-yellow: #f1d53a;
+
+/* Theme variables */
+
+@font-face{
+  font-family: "BebasNeue";
+  src: url("http://bqg.dev:8888/wp-content/themes/bgq/assets/fonts/Bebas_Neue_Cyrillic.ttf");
+}
+
+@font-face{
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css?family=Roboto");
+}
+
+body{
+  margin: 0;
+  margin-left: -15px;
+}
+
+.main{
+  padding-left: 0!important;
+}
+
