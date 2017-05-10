@@ -20,16 +20,12 @@
 
 .header .top-menu{
   width: 69%;
-  padding-top: 15px;
   float: left;
 }
 
-.header .top-menu ul li{
-  display: inline-block;
-  padding-right: 30px;
-}
-
-.header .top-menu ul li a{
+.header .nav a{
+  padding-left: 15px;
+  margin-right: 15px;
   font-family: "BebasNeue";
   text-decoration: none;
   text-transform: uppercase;
@@ -38,8 +34,8 @@
   transition: 0.3s ease-in-out;
 }
 
-.header .top-menu ul li a:hover{
-  color: #f1d53a;
+.header .top-menu a:hover{
+  color: $theme-yellow;
   transition: 0.3s ease-in-out;
 }
 
@@ -51,16 +47,25 @@
   text-transform: uppercase;
   font-size: 2em;
   color: #fff;
+  padding-top: 10px;
 }
 
 .header .lang span:after{
   content: "";
   position: absolute;
-  bottom: -10px;
+  bottom: -20px;
   right: 60px;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 8px 8.5px 0;
   border-color: #fff transparent transparent;
+}
+
+.header input[type="checkbox"]{
+  display: none;
+}
+
+.header .nav .active{
+  border-bottom: 11px solid $theme-yellow;
 }

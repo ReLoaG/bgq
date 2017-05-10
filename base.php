@@ -19,7 +19,7 @@ use Roots\Sage\Wrapper;
               get_template_part('templates/header');
           ?>
 
-          <main class="main">
+          <main class="main dummy-content">
               <?php include Wrapper\template_path(); ?>
           </main><!-- /.main -->
 

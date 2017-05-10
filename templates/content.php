@@ -1,9 +1,25 @@
-<article <?php post_class(); ?>>
-  <header>
-    <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    <?php get_template_part('templates/entry-meta'); ?>
-  </header>
-  <div class="entry-summary">
-    <?php the_excerpt(); ?>
-  </div>
-</article>
+<section class="post-list">
+    <div class="inner-content">
+        <a href="<?php the_permalink(); ?>" class="link-block">
+            <div class="post-list-item">
+                <div class="post-thumb">
+                    <?php the_post_thumbnail('custom-size') ?>
+                </div>
+                <div class="main-content">
+                    <h1 class="entry-title"><?php the_title(); ?></h1>
+                    <div class="excerpt">
+                        <?php echo get_excerpt(); ?>
+                    </div>
+                </div>
+                <time class="updated" datetime="<?= get_post_time('c', true); ?>">
+                    <div class="the-day">
+                        <?= get_the_date('j'); ?>
+                    </div>
+                    <div class="the-month">
+                        <?= get_the_date('F'); ?>
+                    </div>
+                </time>
+            </div>
+        </a>
+    </div>
+</section>

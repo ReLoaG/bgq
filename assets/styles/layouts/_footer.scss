@@ -4,15 +4,6 @@
   color: $theme-grey;
 }
 
-/*.footer .inner-content{
-  position: relative;
-  max-width: 96%;
-  width: 1120px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin: 0 auto;
-}*/
-
 .footer .heading-text{
   font-family: "BebasNeue";
   text-transform: uppercase;
@@ -120,3 +111,10 @@
   text-align: center;
 }
 
+.footer .inner-content-contacts .left-column{
+  width: 50%;
+}
+
+.footer .inner-content-contacts .right-column{
+  width: 50%;
+}

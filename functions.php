@@ -26,3 +26,26 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+/**
+ * Menu
+ **/
+
+function add_menuclass($ulclass) {
+    return preg_replace('/<a /', '<a class="nav-item"', $ulclass);
+}
+add_filter('wp_nav_menu','add_menuclass');
+
+function get_excerpt(){
+    $excerpt = get_the_excerpt();
+    $excerpt = preg_replace(" ([.*?])",'',$excerpt);
+    $excerpt = strip_shortcodes($excerpt);
+    $excerpt = strip_tags($excerpt);
+    $excerpt = substr($excerpt, 0, 500);
+    $excerpt = substr($excerpt, 0, strripos($excerpt, " "));
+    $excerpt = trim(preg_replace( '/s+/', ' ', $excerpt));
+    $excerpt = $excerpt.'... ';
+    return $excerpt;
+}
+
+add_image_size( 'custom-size', 400, 400, array( 'center', 'top' ) );

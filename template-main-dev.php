@@ -55,30 +55,30 @@
 </section>
 
 <section class="short-information">
-    <div class="inner-content">
+    <div class="inner-content counter">
         <div class="column">
-            <div class="number">2006</div>
+            <div class="number counter-value" data-count="2006">950</div>
             <div class="text">
                 PІК <br>
                 ЗАСНУВАННЯ
             </div>
         </div>
         <div class="column">
-            <div class="number">207</div>
+            <div class="number counter-value" data-count="207">80</div>
             <div class="text">
                 проектів <br>
                 виконано
             </div>
         </div>
         <div class="column">
-            <div class="number">124</div>
+            <div class="number counter-value" data-count="124">30</div>
             <div class="text">
                 га <br>
                 родовища
             </div>
         </div>
         <div class="column">
-            <div class="number">71</div>
+            <div class="number counter-value" data-count="71">0</div>
             <div class="text">
                 одиниць <br>
                 техніки
@@ -141,6 +141,11 @@
         <i class="fa fa-play-circle-o" aria-hidden="true"></i>
     </div>
 </section>
+
+<script type="text/javascript">
+
+
+</script>
 
 <?php// while (have_posts()) : the_post(); ?>
   <?php// get_template_part('templates/page', 'header'); ?>

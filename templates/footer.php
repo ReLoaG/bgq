@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="inner-content">
+    <div class="<?php if( is_page( 2) ){echo 'inner-content';} elseif ( is_page( 19)) {echo 'inner-content-contacts';} else {echo 'hide';} ?>">
         <div class="left-column">
             <div class="heading-text">
                 напишіть нам!
