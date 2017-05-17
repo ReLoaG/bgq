@@ -55,16 +55,416 @@
                     Генеральний директор
                 </div>
                 <div class="contacts">
-                    info@bgq.com.ua <br>
-                    p.matsalak@bgq.com.ua <br>
-                    8 800 765 65 33 <br>
-                    097 765 65 33
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="worker-block">
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро <br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="worker-block">
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро <br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="photo-right">
-
+        <div class="worker-block">
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро<br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="worker-block">
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро<br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="worker-block">
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро<br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="photo-left">
+        <div class="worker-block">
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро <br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="worker-block">
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро <br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="worker-block">
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро <br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="photo-right">
+        <div class="worker-block">
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро<br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="worker-block">
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро<br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="worker-block last-worker-block">
+            <div class="gray-rectangle">
+                &nbsp;
+            </div>
+            <div class="avatar">
+                <img src="http://bqg.dev:8888/wp-content/uploads/2017/05/avatar1.jpg" alt="">
+            </div>
+            <div class="description-block">
+                <div class="name">
+                    Петро<br>
+                    мацалак
+                </div>
+                <div class="position">
+                    Генеральний директор
+                </div>
+                <div class="contacts">
+                    <div class="mail">
+                        <span>
+                            info@bgq.com.ua
+                        </span>
+                        <span>
+                            p.matsalak@bgq.com.ua
+                        </span>
+                    </div>
+                    <div class="phone">
+                        <span>
+                            8 800 765 65 33
+                        </span>
+                        <span>
+                            097 765 65 33
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

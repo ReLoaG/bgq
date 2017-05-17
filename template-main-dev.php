@@ -87,7 +87,7 @@
     </div>
 </section>
 
-<section class="products">
+<section class="products-block">
     <div class="inner-content">
         <div class="right-column">
             <div class="heading-text">

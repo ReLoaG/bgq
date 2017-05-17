@@ -33,9 +33,9 @@
             </nav>
         </div>
         <div class="lang">
-                <span>
-                    Укр
-                </span>
+            <ul>
+                <?php pll_the_languages();?>
+            </ul>
         </div>
     </div>
 </header>
